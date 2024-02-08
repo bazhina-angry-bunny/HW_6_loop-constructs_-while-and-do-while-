@@ -15,18 +15,16 @@ public class Main {
             }
         }
         {
-            {
-                System.out.println(" ");
-                System.out.println("Задача №2");
+            System.out.println(" ");
+            System.out.println("Задача №2");
 
-                int i = 0;
-                while (i < 10) {
-                    i++;
-                    System.out.print(i + " ");
-                }
-                System.out.println();
+            int i = 0;
+            while (i < 10) {
+                i++;
+                System.out.print(i + " ");
             }
-            for (int i = 10; i > 0; i--) {
+            System.out.println();
+            for ( ; i > 0; i--) {
                 System.out.print(i + " ");
             }
             System.out.println();
@@ -122,14 +120,11 @@ public class Main {
             int firstTimePeriod = year - 200;
             int secondTimePeriod = year + 100;
 
-            int i = firstTimePeriod;
-
-            for ( ; i >= firstTimePeriod & i < secondTimePeriod;  i = i + 79) {
-
+            for (int i = firstTimePeriod; i >= firstTimePeriod & i <= secondTimePeriod;  i = i + 79) {
                 System.out.println(i);
             }
-        }
 
+        }
 
 
     }
